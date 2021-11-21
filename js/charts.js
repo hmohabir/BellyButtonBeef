@@ -60,7 +60,7 @@ function resetData() {
 function plotCharts(id) {
 
     // read in the JSON data
-    d3.json("data/samples.json").then((data => {
+    d3.json("samples.json").then((data => {
 
         // ----------------------------------
         // POPULATE DEMOGRAPHICS TABLE
