@@ -92,8 +92,7 @@ function buildCharts(sample) {
     var slicedSampleValues = sampleValues.map(object => object).slice(0,10).reverse();
 
     // 8. Create the trace for the bar chart. 
-    var barData = [
-      
+          
     var barData = {
       x: slicedSampleValues,
       y: yticks,
